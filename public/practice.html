@@ -5,50 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <nav class="p-4 bg-blue-400 md:p-0 align-middle md:flex justify-between md:px-16 items-center">
+<body style="background-color: #ddd; font-family: Poppins;">
+    <nav class="p-4 bg-blue-900 md:p-0 align-middle md:flex justify-between md:px-16 items-center">
     <div class="">
-        <img src="theface.jpg" alt="" class="w-16 rounded-2xl">
+        <img src="theface.jpg" alt="" class="w-16 rounded-full">
     </div>
     <div>
         <div class="">
             <ul class="mb-4" >
-        <a href="#" class=""><li class="md:inline text-white text-l mr-4">Home</li></a>
+        <a href="#" class=""><li class="md:inline text-white text-l mr-4 hover:text-gray-300 hover:overline">Home</li></a>
         <a href="#"><li class="md:inline text-white text-l mr-4 hover:text-gray-300 hover:overline">About</li></a>
-        <a href="#"><li class="md:inline text-white text-l mr-4">Contact</li></a>
-        <a href="#"><li class="md:inline text-white text-l mr-4">Services</li></a>
+        <a href="#"><li class="md:inline text-white text-l mr-4 hover:text-gray-300 hover:overline">Contact</li></a>
+        <a href="#"><li class="md:inline text-white text-l mr-4 hover:text-gray-300 hover:overline">Services</li></a>
         </ul>
         </div>
     </div>
     <div>
-    <a href="#" class="bg-transparent border-2 text-white border-x-white rounded-xl py-2 px-4 w-16 text-16 hover:bg-blue-300">Login</a>
+    <a href="#" class="bg-transparent border-2 text-white border-x-white rounded-xl py-2 px-4 w-16 text-16 hover:bg-blue-700">Login</a>
     </div>
     </nav>
-    <div class="p-8 bg-blue-400 md:px-16 mt-8 text-white">
+    <div class="p-8 bg-blue-900 md:px-16 mt-8 text-white">
         <p class="text-xl">Hi, I am The Face</p>
         <p class="text-4xl">A Front-end Web Developer</p>
         <p class="text-xl">And WordPress Developer</p>
     </div>
     <p class="text-3xl text-center bold p-4">Technologies I Use</p>
     <div class="p-12 flex-wrap flex justify-center">
-        <img src="html5.svg" alt="" class="h-32 mr-8">
-        <img src="css3.svg" alt="" class="h-32 mr-8">
-        <img src="js.svg" alt="" class="h-32 mr-8">
-        <img src="bootstrap.svg" alt="" class="h-32 mr-8">
-        <img src="wordpress.svg" alt="" class="h-32">
+        <img src="html5.svg" alt="" class="h-24 mr-8">
+        <img src="css3.svg" alt="" class="h-24 mr-8">
+        <img src="js.svg" alt="" class="h-24 mr-8">
+        <img src="bootstrap.svg" alt="" class="h-24 mr-8">
+        <img src="wordpress.svg" alt="" class="h-24">
     </div>
-    <div class="bg-blue-400 p-16 flex">
-        <div class="text-white text-20 w-1/2">
-            <h3 class="text-5xl mb-8 bold">About</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi quia exercitationem nostrum officiis amet reiciendis tenetur facere cum nihil pariatur sapiente officia aliquam autem unde quod possimus, quibusdam dolorum! Dignissimos, iure, quibusdam facere recusandae expedita magnam dolores et architecto distinctio nobis consequuntur! Tenetur iste dolorem dolorum! Pariatur, itaque cumque!
+    <div class="p-8 bg-blue-900 md:p-16 md:flex justify-between">
+        <div class="text-white text-20 md:w-1/2 text-justify mb-16">
+            <h3 class="text-4xl mb-8 font-bold">About Me!</h3>
+            <p class="mb-2 text-lg">I am Ezekiel A. Tobiloba, nicknamed 'The Face' , A WordPress Developer of 4 years, and a Web Developer of 3 years.</p>
+            <p class="mb-4 text-lg">I have since built amazing project using HTML, CSS and JavaScript while also creating tens of websites using WordPress.</p>
+            <p class="mb-4 text-lg">I am currently learning JavaScript 'React' and CSS 'Tailwind' frameworks to enable faster and easier completion of projects while also broadening my knowledge.</p>    
+            <p class="text-lg">This is My Life - One I'm currently having fun in.</p>
+        </div>
+        <div class="md:w-2/5 h-100">
+            <img src="pakata.jpg" alt="" class="w-100 h-full">
+        </div>
+    </div>
+    <div class="p-20 flex justify-center items-center flex-col">
+        <h3 class="text-3xl mb-8">Testimonial</h3>
+        <div class="bg-blue-900 w-80 p-8 flex direction-column flex-col justify-center">
+            <img src="quote-right.svg" alt="" class="h-24 opacity-60">
+            <p class="text-white">
+                Ezekiel is a great and fantastic guy, Pays outstanding attention to details, was a pleasure working with him. 
             </p>
-        </div>
-        <div class="w-1/2">
-            <img src="pakata.jpg" alt="">
+                <div class="flex items-center justify-around mt-8">
+                <img src="avatar.png" alt="" class="h-16 rounded-full">
+                <h4 class="text-white">Anonymous</h4>
+            </div>
         </div>
     </div>
+    <div class="p-8 sm:p-12 bg-blue-900 text-white md:flex">
+        <div class="md:w-3/5 pr-8 mb-8">
+            <h2 class="text-4xl font-bold">Contact Me!</h2>
+            <p class="my-12 text-2xl">Reach out to me via my social media links below or send a message through the contact form.</p>
+            <div class="flex flex-wrap">
+                <a href="https://facebook.com/princeabolade.tobilobaezekiel"><img src="facebook.svg"  class="h-10 mr-2 w-10 bg-white"></a>
+                <a href="https://twitter.com/thefacetweets"><img src="twitter.svg"  class="h-10 w-10 mr-2 bg-white"></a>
+                <a href="https://instagram.com/heistheface"><img src="instagram.svg"  class="h-10 w-10 mr-2 bg-white"></a>
+                <a href="https://linkedin.com/in/ezekiel-abolade"><img src="linkedin.svg"  class="h-10 mr-2 w-10 bg-white"></a>
+                <a href="https://wa.me/qr/YALRGMUPOL3YK1"><img src="whatsapp.svg"  class="h-10 w-10 mr-2 bg-white"></a>
+                <a href="https://github.com/iamtheface"><img src="github.svg"  class="h-10 w-10 mr-2 bg-white"></a>
+                <a href="mailto:ezekielabolade@gmail.com"><img src="email.svg"  class="h-10 w-10 bg-white"></a>
+            </div>
+        </div>
+        <div class="md:w-2/5">
+            <form action='POST' method='POST' name='Contact' data-netlify>
+                <input type="text" name="Name" placeholder="Name" requiraed class="w-full text-white font-bold bg-transparent outline-none border-b-4 mb-4">
+                <input type="email" name="Email" placeholder="Email" required class="w-full  text-white font-bold bg-transparent outline-none border-b-4 mb-4">
+                <input type="text" name="Subject" placeholder="Message Title" required class="w-full  text-white font-bold outline-none bg-transparent border-b-4 mb-4">
+                <textarea placeholder="Send a message" required class="w-full bg-transparent border-4"></textarea>
+                <input type="submit" name="Message" value="Send Message" class="w-40 p-4 bg-white text-blue-900 mt-4 rounded-md">
+            </form>
+        </div>
+    </div>
+    <div class="p-4 flex flex-col justify-center items-center mt-4">
+        <h2 class="text-3xl font-bold center">Recent Project</h2>
+    <div class="p-12 flex flex-wrap justify-between">
+        <div class="w-96 h-80 bg-blue-900 text-white p-6">
+            <img src="Screenshot4.png" alt="" class="h-3/4">
+            <h2 class="text-2xl py-2">Fitness</h2>
+            <h4>HTML/CSS</h4>
+        </div>
+        <div class="w-96 h-80 bg-blue-900 text-white p-6 mb-4">
+            <img src="Screenshot2.png" alt="" class="h-3/4">
+            <h2 class="text-2xl py-2">Virtual Reality</h2>
+            <h4>HTML/CSS</h4>
+        </div>
+        <div class="w-96 h-80 bg-blue-900 text-white p-6">
+            <img src="Screenshot3.png" alt="" class="h-3/4">
+            <h2 class="text-2xl py-2">Passion For Food</h2>
+            <h4>HTML/CSS</h4>
+        </div>
+        <div class="w-96 h-80 bg-blue-900 text-white p-6">
+            <img src="Screenshot1.png" alt="" class="h-3/4">
+            <h2 class="text-2xl py-2">Random</h2>
+            <h4>HTML/CSS</h4>
+        </div>
+        <div class="w-96 h-80 bg-blue-900 text-white p-6">
+            <img src="manp.png" alt="" class="h-3/4">
+            <h2 class="text-2xl py-2">Man UP Naija</h2>
+            <h4>WordPress</h4>
+        </div>
+        <div class="w-96 h-80 bg-blue-900 text-white p-6">
+            <img src="docile.png" alt="" class="h-3/4">
+            <h2 class="text-2xl py-2">Docile Digital</h2>
+            <h4>WordPress/</h4>
+        </div>
+    </div>
+    </div>
+    <footer class="bg-blue-900 p-4 text-white flex justify-center">
+        <p>&copy; 2022, The Face. All rights reserved.</p>
+    </footer>
 </body>
 </html>
